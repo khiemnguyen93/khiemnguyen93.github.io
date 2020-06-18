@@ -1,0 +1,232 @@
+/* CSS Document */
+
+*{
+	margin:0;
+	padding: 0;
+}
+@font-face{
+	src:url(font/Road_Rage.otf);
+	font-family: RR;
+}
+
+@font-face{
+	src:url(font/NotoSans-Regular.ttf),url(font/NotoSans-Bold.ttf),url(font/NotoSans-BoldItalic.ttf);
+	font-family: Noto;
+}
+
+@font-face{
+	src:url("font/DeadenderRegular-EMVz.ttf");
+	font-family: Deadender;
+}
+
+body{
+	background: black;
+}
+
+.wrapper{
+	width: 800px;
+	height: 2000px;
+	background: black;
+	margin: 0 auto;
+}
+
+#header{
+	background:black;
+	width: 800px;
+	height: 120px;
+	float: left;
+	border-style: solid;
+	border-bottom-color: aqua;
+	
+}
+
+#grouplogo{
+	background: black;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
+
+#boardgame{
+	background: black;
+	float:left;
+	width:400;
+	height: 200;
+	margin-top: 40px;
+	font-size: 25px;
+	font-family: "Deadender"
+}
+
+#tittle{
+	background: black;
+	float: right;
+	margin-top: 10px;
+	margin-right:10px;
+	height: 100px;
+}
+
+
+#selectmenu{
+	background: black;
+	width: 800px;
+	height: 40px;
+	float: right;
+}
+
+#selectmenu ul{
+	list-style: none;
+	font-family: "RR";
+}
+
+#selectmenu ul li{
+	float: left;
+	font-size: 16px;
+	color:white;
+	margin-left: 30px;
+	margin-top:10px;
+	text-shadow: 5px 5px 5px red;
+	width: 120px;
+	text-align: center;
+}
+#selectmenu ul li:hover{
+	background: aqua;
+}
+#selectmenu ul li a{
+	text-decoration: none;
+	color:white;
+	transition-duration: 0.2s;
+	display: block;
+}
+
+#content{
+	background: black;
+	width: 800px;
+	height: 940px;
+}
+
+
+
+#content img{
+	float: left;
+}
+
+
+#story{
+	float:left;
+	background: black;
+	width: 500px;
+	height: 150px;
+	margin-left: 150px;
+	border-style: solid;
+	border-left-color: aqua;
+	border-right-color: red;
+}
+
+p{
+	margin-left: 10px;
+	margin-right:10px;
+	margin-top: 5px;
+	color:white;
+	float:left;
+	font-size: 12px;
+	text-align:justify;
+	font-family:"Noto";
+}
+
+
+#background{
+	float:right;
+	background:black;
+	width: 800px;
+	height: 500px;	
+}
+
+
+#leftpic img{
+	float:left;
+	margin-left: 10px;
+	margin-top:25px;
+	box-shadow: 10px -10px 15px -2px rgba(0,255,255,0.78);
+}
+
+
+#rightpic img{
+	float:right;
+	margin-right: 10px;
+	margin-top:25px;
+	box-shadow: 10px -10px 15px -2px rgba(255,0,0,1);}
+
+#lastideas{
+	float:left;
+	background: black;
+	width: 800px;
+	height: 1000px;
+}
+
+#lastideas h1{
+	color:aqua;
+	font-family: "Deadender";
+	font-size: 50px;
+	
+}
+
+#namecall{
+	background: black;
+	width: 800px;
+	height: 65px;
+}
+#namecall img{
+	margin-left: 60px;
+	border-style: solid;
+	border-bottom-color: aqua;
+}
+
+#namecall2{
+	background: black;
+	width: 800px;
+	height: 65px;
+}
+
+#namecall2 img{
+	margin-left: 50px;
+	border-style: solid;
+	border-bottom-color: aqua;
+}
+
+#footer{
+	background: black;
+	width: 800px;
+	height: 100px;
+	float: left;
+	margin-left: 100px;
+
+}
+
+#footer ul{
+	list-style: none;
+	font-family: "RR";
+	
+}
+
+#footer ul li{
+	float: left;
+	font-size: 17px;
+	color:white;
+	margin-left: 30px;
+	margin-top:10px;
+	text-shadow: 5px 5px 5px red;
+}
+
+#footer ul li:hover{
+	background: aqua;
+}
+
+#footer ul li a{
+	text-decoration: none;
+	color:white;
+	transition-duration: 0.2s;
+	display: block;
+}
